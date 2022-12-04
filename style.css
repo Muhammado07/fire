@@ -526,18 +526,17 @@ a {
     }
   }
   .footer {
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   .footer p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
-    text-transform: uppercase;
-    line-height: 2;
-    color: #7f7f7f;
+    color: var(--second-color);
+    font-family: "Maurea-Light";
   }
   
   @media screen and (max-width: 480px) {
