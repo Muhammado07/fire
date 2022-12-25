@@ -17,6 +17,19 @@
     font-weight: lighter;
     font-style: normal;
 }
+@font-face {
+  font-family: "GE-Dinar-One-Bold";
+  src: url("../fonts/GE-Dinar-One-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GE-Dinar-One-Medium";
+  src: url("../fonts/GE-Dinar-One-Medium.otf") format("opentype");
+  font-weight: medium;
+  font-style: normal;
+}
 :root {
   --first-color: #00539e;
   --second-color: #151515;
@@ -132,8 +145,8 @@ a {
   font-weight: 500;
   color: var(--third-color);
 }
-.nav .info .lang {
-  margin-right: 20px;
+.nav .lang a {
+  color: var(--third-color);
 }
 .req {
   background: var(--third-color);
@@ -259,7 +272,7 @@ a {
 .chiller .details .side-info {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: flex-start;
   flex-direction: column;
 }
 .chiller .details .side-info .info h1 {
@@ -543,4 +556,11 @@ a {
     .footer p {
       font-size: 11px;
     }
+  }
+
+  /* Arabic */
+  .ar {
+    direction: rtl;
+    font-family: "GE-Dinar-One-Bold";
+    text-align: right;
   }
