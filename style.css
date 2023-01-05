@@ -323,10 +323,11 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .chiller .logos img {
-    width: 160px;
+    width: 120px;
     height: 100%;
 }
 
@@ -563,4 +564,7 @@ a {
     direction: rtl;
     font-family: "GE-Dinar-One-Bold";
     text-align: right;
+  }
+  .ar .side-form .pop-content .form-groups select option {
+    font-family: "GE-Dinar-One-Bold";
   }
